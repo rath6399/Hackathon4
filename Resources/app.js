@@ -21,6 +21,8 @@ var tableData = [ 'American Marketing Association', 'Beta Alpha Psi and the Stud
 'PGA Golf Management Club', 'Operation Management Club', 'Human Resource Management Club' ];
 
 var table = Ti.UI.createTableView({
+	title: 'Click for more information',
+	color: '#ffd700',
 	top: '100px',
   	data: tableData,
 });
