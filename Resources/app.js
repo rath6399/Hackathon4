@@ -9,7 +9,7 @@ var view = Ti.UI.createView({
 });
 
 var label1 = Ti.UI.createLabel({
-	text : 'Build professional networks and develop leadership skills by becoming active in one or more of the following student clubs and organizations:',
+	text : 'Build professional networks and develop leadership skills by becoming active in one or more of the following student clubs and organizations. Please click one for more information',
 	color : '#ffd700',
 	top: '0px',
 	font: {fontSize: 12},
@@ -21,8 +21,6 @@ var tableData = [ 'American Marketing Association', 'Beta Alpha Psi and the Stud
 'PGA Golf Management Club', 'Operation Management Club', 'Human Resource Management Club' ];
 
 var table = Ti.UI.createTableView({
-	title: 'Click for more information',
-	color: '#ffd700',
 	top: '100px',
   	data: tableData,
 });
