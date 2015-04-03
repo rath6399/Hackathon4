@@ -9,7 +9,7 @@ var view = Ti.UI.createView({
 });
 
 var label1 = Ti.UI.createLabel({
-	text : 'Build professional networks and develop leadership skills by becoming active in one or more of the following student clubs and organizations. Please Click for more information',
+	text : 'Build professional networks and develop leadership skills by becoming active in one or more of the following student clubs and organizations. Please click one for more information',
 	color : '#ffd700',
 	top: '0px',
 	font: {fontSize: 12},

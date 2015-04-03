@@ -1,5 +1,5 @@
 Ti.UI.backgroundColor = 'white';
-var win = Ti.UI.createWindow({
+var winLand = Ti.UI.createWindow({
 	backgroundColor: '#000000'
 });
 
@@ -50,6 +50,6 @@ for (var i=0; i<tableData.length; i++){
 
 table.setData(allRows);
 view.add(label1);
-win.add(view);
-win.add(table);
-win.open();
+winLand.add(view);
+winLand.add(table);
+winLand.open();
